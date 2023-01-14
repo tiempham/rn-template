@@ -51,11 +51,10 @@
 		"preset": "react-native"
 	},
 	"lint-staged": {
-		"**/*.{js,jsx,ts,tsx}": [
-			"eslint"
-		],
-		"**/*": [
-			"prettier --write --ignore-unknown"
+		"**/*, !**/*{json}": [
+      "eslint ./src",
+			"prettier --write --ignore-unknown",
+			"git add ."
 		]
 	}
 }
