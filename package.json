@@ -57,14 +57,14 @@
 			"git add ."
 		],
 		"*.ts": [
-		"eslint",
-		"prettier --write --ignore-unknown",
-		"git add ."
+			"eslint",
+			"prettier --write --ignore-unknown",
+			"git add ."
 		],
 		"*.js": [
-		"eslint",
-		"prettier --write --ignore-unknown",
-		"git add ."
+			"eslint",
+			"prettier --write --ignore-unknown",
+			"git add ."
 		] 
 	}
 }
