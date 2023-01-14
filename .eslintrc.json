@@ -14,5 +14,10 @@
 	"rules": {
 		"no-unused-vars": ["error", {"vars": "all"}],
 		"prettier/prettier": ["error", {}, {"usePrettierrc": true}]
-	}
+	},
+    "settings": {
+        "react": {
+          "version": "detect"
+        }
+    }
 }
