@@ -51,8 +51,7 @@
 		"preset": "react-native"
 	},
 	"lint-staged": {
-		"**/*, !package.json": [
-      "eslint ./src",
+		"**/*": [
 			"prettier --write --ignore-unknown",
 			"git add ."
 		]
