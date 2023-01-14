@@ -54,16 +54,19 @@
 		"*.tsx": [
       		"eslint",
 			"prettier --write --ignore-unknown",
+			"jest --bail --findRelatedTests",
 			"git add ."
 		],
 		"*.ts": [
 			"eslint",
 			"prettier --write --ignore-unknown",
+			"jest --bail --findRelatedTests",
 			"git add ."
 		],
 		"*.js": [
 			"eslint",
 			"prettier --write --ignore-unknown",
+			"jest --bail --findRelatedTests",
 			"git add ."
 		] 
 	}
