@@ -55,8 +55,7 @@
 			"eslint"
 		],
 		"**/*": [
-			"prettier --write --ignore-unknown",
-			"git add ."
+			"prettier --write --ignore-unknown"
 		]
 	}
 }
