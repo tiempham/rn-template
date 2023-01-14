@@ -52,7 +52,7 @@
 	},
 	"lint-staged": {
 		"**/*.{js,jsx,ts,tsx}": [
-			"eslint --fix --ignore-path .gitignore"
+			"eslint --ignore-path .gitignore"
 		],
 		"**/*": [
 			"prettier --write --ignore-unknown",
