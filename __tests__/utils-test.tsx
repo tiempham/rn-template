@@ -1,11 +1,15 @@
 import {describe, expect, test} from '@jest/globals'
+import {ucFirst} from 'utils'
 
-const sum = (a: number, b: number) => {
-	return a + b
-}
-
-describe('sum module', () => {
-	test('adds 1 + 2 to equal 3', () => {
-		expect(sum(1, 2)).toBe(3)
+// Test function ucFirst
+describe('Test function ucFirst', () => {
+	test('ucFirst("hello") should return "Hello"', () => {
+		expect(ucFirst('hello')).toBe('Hello')
+	})
+	test('ucFirst("h") should return "H"', () => {
+		expect(ucFirst('h')).toBe('H')
+	})
+	test('ucFirst("") should return ""', () => {
+		expect(ucFirst('')).toBe('')
 	})
 })

@@ -17,6 +17,9 @@ module.exports = {
 				alias: {
 					tests: ['./tests/'],
 					'@components': '*/components',
+					'@configs': '*/configs',
+					'@stores': '*/stores',
+					'@utils': '*/utils',
 				},
 			},
 		],
