@@ -51,12 +51,12 @@
 		"preset": "react-native"
 	},
 	"lint-staged": {
+		"**/*.{js,jsx,ts,tsx}": [
+			"eslint --fix --ignore-path .gitignore"
+		],
 		"**/*": [
 			"prettier --write --ignore-unknown",
 			"git add ."
-		],
-		"**/*.{js,jsx,ts,tsx}": [
-			"eslint --fix --ignore-path .gitignore"
 		]
 	}
 }
