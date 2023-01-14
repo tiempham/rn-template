@@ -51,7 +51,7 @@
 		"preset": "react-native"
 	},
 	"lint-staged": {
-		"*.tsx": [
+		"*.ts": [
       "eslint ./src",
 			"prettier --write --ignore-unknown",
 			"git add ."
