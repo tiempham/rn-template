@@ -1,15 +1,8 @@
-#!/usr/bin/env node
-const ora = require('ora');
+import ora from 'ora';
 
-const spinner = ora('Executing post init script ');
+const spinner = ora('Loading unicorns').start();
 
-new Promise((resolve) => {
-  spinner.start();
-  // do something
-  resolve();
-}).then(() => {
-  spinner.succeed();
-}).catch(() => {
-  spinner.fail();
-  throw new Error('Something went wrong during the post init script execution');
-});
+setTimeout(() => {
+	spinner.color = 'yellow';
+	spinner.text = 'Loading rainbows';
+}, 1000);
