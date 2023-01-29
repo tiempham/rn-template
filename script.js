@@ -1,8 +1,3 @@
-import ora from 'ora';
+#!/usr/bin/env node
 
-const spinner = ora('Loading unicorns').start();
-
-setTimeout(() => {
-	spinner.color = 'yellow';
-	spinner.text = 'Loading rainbows';
-}, 1000);
+console.log("This is post init script");
