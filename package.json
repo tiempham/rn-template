@@ -1,6 +1,7 @@
 {
     "name": "react-native-ts-template",
     "version": "0.0.5",
+    "type": "module",
     "description": "React Native Template with typescript and zustand state management",
     "repository": "git@github.com:Esemesek/react-native-new-template.git",
     "author": "tiempham <tiemdesigner@gmail.com>",
