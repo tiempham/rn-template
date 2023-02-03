@@ -1,8 +1,7 @@
 module.exports = {
     // Placeholder used to rename and replace in files
     // package.json, index.json, android/, ios/
-    placeholderName: "reactnativetemplate",
-    titlePlaceholder: 'Hello App Display Name',
+    placeholderName: "reactNativeTemplate",
     // Directory with template
     templateDir: "./template",
   
