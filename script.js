@@ -16,5 +16,7 @@ console.log("              |   | \\\\\\  -  /// |   |  		                       
 console.log("              | \\_|  ''\\---/''  |   |  		                         ");
 console.log("              \\  .-\\__  `-` ___/-. /    May you be happy and peaceful!      ");
 console.log("            ___`. .' /--.--\\ `. . __    May you be free from suffering!     ");
+console.log("            ___`. .' /--.--\\ `. . __    May you live life without bugs!     ");
 console.log(".\"\" '< `.___\\_<|>_/___.' >'\"\".      May you find joy in the present moment!") ;
 
+// as console above help me add "May you live life without bugs" one more line  in console art
