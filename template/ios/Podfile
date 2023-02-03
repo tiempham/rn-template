@@ -21,7 +21,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'reactnativetemplate' do
+target 'reactNativeTemplate' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -43,7 +43,7 @@ target 'reactnativetemplate' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'reactnativetemplateTests' do
+  target 'reactNativeTemplateTests' do
     inherit! :complete
     # Pods for testing
   end
