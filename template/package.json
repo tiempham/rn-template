@@ -8,7 +8,7 @@
 		"lint": "eslint ./src",
 		"start": "react-native start",
 		"test": "jest",
-		"prepare": "husky install",
+		"prepare_": "husky install",
 		"react-devtools": "react-devtools"
 	},
 	"dependencies": {
